@@ -1,0 +1,73 @@
+Features,G.A.M.E,ElizaOS,ZerePy,Rig ,AG2,Crew AI,Langchain,DSPY,multi-agent-orchestrator,Goat SDK,Coinbase AgentKit
+Web2/Web3 Focused,Web3,Web3,Web2,Web2,Web2,Web2,Web2,Web 2,Web2,Web3,Web3
+Build By,Virtuals,AI16Z ,Zerebro,ARC,,,,Standford,Amazon,CrossMint,Coinbase
+TLDR;,"GAME empowers AI agents to operate autonomously, processing inputs and generating responses while learning from past interactions. It enhances decision-making by leveraging long-term memory, including experiences, reflections, and dynamic personality traits. By continuously evaluating the outcomes of actions and conversations, GAME enables agents to refine their knowledge and improve their planning and performance over time.
+","Eliza is a powerful multi-agent simulation framework designed to create, deploy, and manage autonomous AI agents. Built with TypeScript, it provides a flexible and extensible platform for developing intelligent agents that can interact across multiple platforms while maintaining consistent personalities and knowledge.
+
+","ZerePy is an open-source Python framework that enables deployment of AI agents on X (formerly Twitter) using OpenAI or Anthropic LLMs, offering features like CLI management, social media integration, and modular connections.","Rig is a Rust library that simplifies building LLM-powered applications by providing common abstractions over LLM providers and vector stores.
+It offers full support for LLM completion and embedding workflows while minimizing boilerplate code, making integration seamless and efficient.","The Open-Source AgentOS: Build production-ready multi-agent systems in minutes, not months. A framework for seamless agent orchestration, conversation management, and integration, powered by AG2.","CrewAI is a framework for orchestrating teams of AI agents that work together like a company structure, where each agent has specific roles, tools, and goals to accomplish complex tasks collaboratively.","LangChain is a comprehensive framework for building LLM-powered applications with robust development tools, monitoring capabilities, and deployment options through LangGraph and LangSmith platforms. ","DSPy is a Python framework focused on programming (rather than prompting) language models through modular, composable code structures. It enables automated optimization of prompts and weights for building AI systems ranging from simple classifiers to complex RAG pipelines and agent loops.","An open-source framework designed to orchestrate multiple AI agents in complex conversations, available in both Python and TypeScript. It intelligently routes queries to appropriate specialized agents while maintaining conversation context across interactions. The framework includes pre-built components and supports custom integrations.","GOAT (Great Onchain Agent Toolkit) is an open-source framework that enables AI agents to interact with multiple blockchain networks including EVM chains, Solana, and Chromia, supporting various wallet types and smart contract interactions.
+The framework provides a unified interface that works with popular agent development platforms like Langchain and Vercel's AI SDK, while offering customizable plugins for different blockchain functionalities and protocols.","Model Flexibility: AgentKit's model-agnostic design supports multiple LLM providers, including OpenAI, Anthropic's Claude, and Llama, giving developers the freedom to choose the AI model that best suits their needs.
+Built-in onchain functionality: Built on top of the Coinbase Developer Platform SDK, AgentKit provides native access to comprehensive blockchain functionality, ensuring reliable and secure onchain operations.
+LangChain Compatibility: Full support for LangChain and its extensive community toolkits enables developers to leverage existing tools and frameworks in their projects"
+Tools Type,No-code AI Agent Platform + Token launchpad,Framework,Framework,Framework,Framework,Framework,Library,Library,Framework,Tools,Tools
+Suitable for,"Non-technical founders, quick prototype/launchpad","Typescript Developers, Technical Builders","AI Devs, Python Devs, Super Lightweight Framework","Shizo Devs that obsessed with Rust, Solana ecosystem devs",developers building complex LLM-powered applications requiring multiple AI agents to collaborate autonomously or with human oversight,"Developers and businesses who want to create organized AI teams with minimal complexity, focusing on business workflows rather than technical agent orchestration.","who need a full-stack solution for building, testing, and deploying LLM applications with extensive third-party integrations","Developers who prefer programmatic control over LLMs through Python code rather than prompt engineering, especially for building self-improving AI systems with automated optimization.","Python/TypeScript developers
+AWS ecosystem users
+Enterprise applications
+Customer service implementations
+Multi-channel support systems",Any LLMs or Framework that support tool calling to access to 40+ Cryptocurrency chain,
+Best for,"Quick MVPs, business-focused projects, get into $VIRTUALS ecosystem","Complex multi-platform agents, supports memory system to store chat / tweets / convo, flexible plugins","Simple lightweight AI Agent starting point, has minimal amonut of libraries used, suitable for AI Engineer",AI Agent Framework for Rust,"Complex multi-agent applications that require orchestrated conversations between AI agents, particularly enterprise-level systems requiring human oversight and robust LLM workflows","Building structured multi-agent systems that require hierarchical organization and clear role-based delegation, similar to how human teams operate in a company setting.","End-to-end LLM application development requiring extensive integrations, production monitoring, and structured prompt engineering workflows.","building and optimizing modular AI systems where you want programmatic control over LLMs instead of managing prompts, particularly useful for RAG pipelines, classifiers, and agent systems that need automatic self-improvement.","Complex conversational systems
+Customer support automation
+E-commerce support systems
+Multilingual chatbots
+Voice-enabled AI systems
+Enterprise-scale AI applications","Suitable for using it with any Tools based framework like Eliza, Langchain (TS), Vercel AI SDK
+Cross chain AI Agent tools (supports EVM, Solana, Chromia)","Developers: Particularly those interested in integrating AI with blockchain technology for autonomous operations and interactions.
+Crypto and Blockchain Enthusiasts: Individuals or companies looking to explore the capabilities of AI in DeFi, smart contracts, and other blockchain-related technologies."
+Key Strength,"- Tap into $VIRTUAL ecosystem
+- Can upload your own knowledge graph
+- You can launch token but use other framework
+- Sandbox via Game-lite which covers simulation of tweets reply and general simulation
+- Low-code/no-code users
+","- AI Agent just works out of the box
+- Strong cross-platform support (Discord, X, Telegram), and more than 40 integrations including TEE, Goat SDK, Vector DB","- Lightweight library (only 6 libraries used)
+- Works out of the box with Twitter integration
+- Great CLI tooling
+- Great starting point for Twitter AI Agent","- support multilple LLMs and VectorDBs
+- High-performance computing needs
+",,"- Build multi-agent systems
+- Run simulation easily","- Simplified Integration with LLMs
+- Comprehensive Documentation and Examples
+- Supports a lot of integration of LLMs, RAGs and Tools","-  separate prompting from programming, providing a more structured approach to prompt engineering.
+- Incorporates best practice prompting techniques as ""signatures""
+- Provides native constructs for systematic prompt optimization
+- Support Chain of Thoughts prompting easily",,,"- Those who want a model-agnostic platform that supports various large language models like OpenAI, Anthropic's Claude, and Llama.
+- Leveraging the Replit template for rapid development and LangChain integration for existing projects."
+Weakness,"- Blackbox on how G.A.M.E works
+- Harder to debug
+- Requires to launch a token to use","- Very Opinionated
+- Quite heavy to run
+- Stability issues
+- Unless you are familiar with typescript, it might be steep learning curve","- Nothing much other than just a Twitter AI Agent
+- Not much examples other than Twitter AI Agent","- Just a prompt library for Rust 
+- Learning curve due to Rust",,"- Using Langchain underlining
+- Very complex and Abstracted architecture
+- Hard to debug","- Learning Curve
+- Abstracted Complexity","- Poorly designed codebase with complex metaprogramming
+- Lacks proper documentation
+","Heavy AWS ecosystem dependency
+Lack of documents for non-AWS environment
+Learning curve
+",,"While tools and templates are provided, integrating AI with blockchain still requires a deep understanding of both fields. Developers might be limited by the features and updates provided by Coinbase’s platform, potentially affecting long-term adaptability."
+AI Agent Architecture,Supervisor-Agent style via HLP/LLP + Function System,Agent Runtime with Modular Plugins,,Self Constructed,Self Constructed,Self Constructed,Self Constructed With Multiple Strategies,Self Constructed,AWS,-,Self Constructed
+Memory System,Working Memory + Long Term Memory,SQL + embeddings-based memory,-,"Support MongoDB, Neo4j, LanceDB",,,,,"DynamoDB, In Memory, SQL",-,-
+Development Tool,G.A.M.E lite,CLI,CLI,,,,,,,,
+Programming Language,"Python SDK, REST API",Typescript,Python,Rust,Python,Python,"Typescript, Python",Python,"Typescript, Python",Typescript,"Typescript, Python"
+"Difficulty
+1(Easy) - 5(Hard)",1/5,4/5,2/5,3/5,,,3/5,2/5,3.5/5,3/5,3/5
+"Customizable
+1(Not-Flexible) - 5(Flexible)",1/5,3/5,4/5,4/5,,,3/5,3.5/5,2.5/5,3/5,2/5
+Social Network Supported Integration,"Twitter, Telegram","Twitter, Telegram, Discord, Farcaster",Twitter,-,,,"Twitter, Discord, Messenger etc",-,,,
+LLM Supported,Meta's llama3,Many (Open-AI Compatible APIs),"OpenAI, Anthropic","OpenAI, Cohere, Anthropic, Perplexity, Gemini","OpenAI, Gemini, Anthropic, Mistral, Together, Groq, Cohere",,Many (Open-AI Compatible APIs),,,,Many (Open-AI Compatible APIs and Open Source)
+Wallet Integration,,"EVM, SOL, Goat SDK (incl CHR)",,,,,,,,"40+ chains (EVM, SOL, CHR, etc)",Base Chain
+GitHub Stars,-,"6,000",173,1700,1100,"22,900","96,900","20,500","3,600",196,146
+Link,https://game-lite.virtuals.io/,github.com/ai16z/eliza ,https://github.com/blorm-network/ZerePy,https://github.com/0xPlaygrounds/rig,https://github.com/ag2ai/ag2,https://github.com/crewAIInc/crewAI,https://github.com/langchain-ai/langchain,https://github.com/stanfordnlp/dspy,https://github.com/awslabs/multi-agent-orchestrator,https://github.com/goat-sdk/goat,https://github.com/coinbase/cdp-agentkit
